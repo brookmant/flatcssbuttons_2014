@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Flat CSS Buttons</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/flat-css-buttons-standard.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+    <style>
+      body {font-family: 'Roboto', sans-serif; !important;}
+      h1, h2, h3 {font-weight: lighter; letter-spacing: 1px;}
+      .masthead-nav > li > a{font-weight: lighter;letter-spacing: 1px;}
+    </style>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--script src="/assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container contents">
+            <h1 class="cover-heading">Standard (Free Version)</h1>
+            <hr/>
+                        <a class="pull-right" href="index.html">Back</a>
+
+                                    <p class="lead">Flat CSS Buttons</p>
+                                    <a class="fl fl-md fl-red pull-right fl-rd-sq" href="flatcssbuttons.zip"><i class="fa fa-download"></i> Free Download</a>
+
+            <p><a href="documentation-dark.html">Dark Backround</a> vs <a href="documentation.html">Light Background</a></p>
+             <p>* CSS - Only (no images) <br>
+               * 3 sizes (Large, Medium, Small)<br>
+               * 3 types (square, round, oval)<br>
+               * 6 Different colors * Works in button, a, input tags<br>
+               * Works in FireFox, Safari, Chrome, Opera, IE9 and up
+*Works with Bootstrap and Foundation front-end frameworks and font-awesome</p>
+            <div class="alert alert-success">If you are interested in Social Media Icons or Other Color Themes stay tuned you can purchase for $5.00</div>
+                        <hr/>
+
+            <p class="lead">Getting Started</p>
+            <p>Add flat-css-buttons-standard.css file to as link in the header your html document
+            <p><code> &lt;link href=&quot;css/flat-css-buttons-standard.css&quot; rel=&quot;stylesheet&quot; /&gt;</code></p>
+                        <hr/>
+            <p>If you want to use font-awesome icons add font-awesome to the header your html document              <p>Documentation for <a href="http://fortawesome.github.io/">Font-Awesome Icons</a></p></p>
+             <p><code> &lt;link href=&quot;css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; /&gt;</code></p>
+             <hr/>
+            <p class="lead">Documentation</p>
+            <div class="alert alert-info">How to build a button, use classes .fl then add the button type/color, then size, then shadow if you want, the order doesn't matter</div>
+            <p>Button</p>
+            <p><code> &lt;button class=&quot;fl fl-default&quot;&gt;Button&lt;/button&gt;</code></p>
+            <p> input</p>
+             <p><code> &lt;input type=&quot;button&quot; value="Button" class=&quot;fl fl-default&quot;/&gt;</code></p>
+             <p> a tag </p>
+              <p><code> &lt;a href="#" class=&quot;fl fl-default&quot;&gt; a tag &lt;/a&gt;</code></p>
+                        <hr/>
+
+            <p class="lead">Sizes</p>
+            <p>Use .fl-lg for Large, .fl-md for Medium, .fl-sm for small buttons</p>
+             <p><code> &lt;button class=&quot;fl fl-default fl-lg&quot;&gt;Button&lt;/button&gt;</code></p>
+            <p> 
+              <button class="fl fl-default fl-lg">fl-lg</button>
+              <button class="fl fl-default fl-md">fl-md</button>
+              <button class="fl fl-default fl-sm">fl-sm</button>
+            </p>
+                 <hr/>
+
+             <p class="lead">Types</p>
+             <p>Use .fl-rd-sq for rounded square buttons or .fl-ovl for oval buttons, the square button is the .fl-default class. To add a shadow use .fl-shadow class</p>
+              <p><code> &lt;button class=&quot;fl fl-rd-sq fl-md &quot;&gt;Button&lt;/button&gt;</code></p>
+             <p>
+              <button class="fl fl-default fl-md">fl-default</button>
+              <button class="fl fl-default fl-rd-sq fl-md">fl-rd-sq</button>
+              <button class="fl fl-default fl-ovl fl-md">fl-ovl</button>
+<p>If you want to add a shadow use the fl-shadow class</p>
+                <p><code> &lt;button class=&quot;fl fl-rd-sq fl-md fl-shadow&quot;&gt;Button&lt;/button&gt;</code></p>
+             <p>
+              <button class="fl fl-default fl-ovl fl-md fl-shadow">fl-shadow</button>
+            </p>
+
+            <hr/>
+               <p class="lead">How to add a font awesome icon</p>
+             <p><code> &lt;button class=&quot;fl fl-default fl-sm&quot;&gt;&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt; icon&lt;/button&gt;</code></p>
+             <button class="fl fl-default fl-sm"><i class="fa fa-check"></i> icon</button>
+             <hr/>
+
+             <p class="lead">Standard Colors</p>
+             <p>Use.fl-default (agua) for the default color, to add a different class color replace the .fl-default with another color</p>
+            <p><code> &lt;button class=&quot;fl fl-dark fl-md&quot;&gt;Button&lt;/button&gt;</code><p>
+         
+              <button class="fl fl-md fl-blue">fl-blue</button>
+              <button class="fl fl-md fl-dark">fl-dark</button>
+              <button class="fl fl-md fl-gray">fl-gray</button>
+              <button class="fl fl-md fl-white">fl-white</button>
+              <button class="fl fl-md fl-red">fl-red</button>
+              <button class="fl fl-md fl-default">fl-default</button>
+
+     
+
+        <h2 class="cover-heading">Square</h2>
+        <div class="list-buttons contents">
+            <table class="table table-bordered">
+              <table class="table table-bordered text-centered">
+        <thead>
+          <tr>
+            <th>Large</th>
+            <th>Medium</th>
+            <th>Small</th>
+            <th>Shadow</th>
+            <th>Disabled</th>
+            <th>Icon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button class="fl fl-default fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-default fl-md">fl-mg</button></td>
+            <td><button class="fl fl-default fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-default fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-default fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-default fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-blue fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-blue fl-md">fl-mg</button></td>
+            <td><button class="fl fl-blue fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-blue fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-blue fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-blue fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-dark fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-dark fl-md">fl-mg</button></td>
+            <td><button class="fl fl-dark fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-dark fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-dark fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-dark fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-white fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-white fl-md">fl-mg</button></td>
+            <td><button class="fl fl-white fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-white fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-white fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-white fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-red fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-red fl-md">fl-mg</button></td>
+            <td><button class="fl fl-red fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-red fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-red fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-red fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-gray fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-gray fl-md">fl-mg</button></td>
+            <td><button class="fl fl-gray fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-gray fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-gray fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-gray fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+         
+        </tbody>
+ 
+            </table>
+            <h2>Oval</h2>
+            <table class="table table-bordered">
+              <table class="table table-bordered text-centered">
+        <thead>
+          <tr>
+            <th>Large</th>
+            <th>Medium</th>
+            <th>Small</th>
+            <th>Shadow</th>
+            <th>Disabled</th>
+            <th>Icon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button class="fl fl-default fl-ovl fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-default fl-ovl fl-md">fl-mg</button></td>
+            <td><button class="fl fl-default fl-ovl fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-default fl-ovl fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-default fl-ovl fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-default fl-ovl fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-blue fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-blue fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-blue fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-blue fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-blue fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-blue fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-dark fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-dark fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-dark fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-dark fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-dark fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-dark fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-white fl-ovl fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-white fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-white fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-white fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-white fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-white fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-red fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-red fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-red fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-red fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-red fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-red fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-gray fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-gray fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-gray fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+         
+        </tbody>
+ 
+            </table>
+                 <h2>Square Rounded</h2>
+            <table class="table table-bordered">
+              <table class="table table-bordered text-centered">
+        <thead>
+          <tr>
+            <th>Large</th>
+            <th>Medium</th>
+            <th>Small</th>
+            <th>Shadow</th>
+            <th>Disabled</th>
+            <th>Icon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button class="fl fl-default fl-rd-sq fl-lg">fl-lg</button></td>
+            <td><button class="fl fl-default fl-rd-sq fl-md">fl-mg</button></td>
+            <td><button class="fl fl-default fl-rd-sq fl-sm">fl-sm</button></td>
+            <td><button class="fl fl-default fl-rd-sq fl-sm fl-shadow">.fl-shadow</button></td>
+            <td><button class="fl fl-default fl-rd-sq fl-sm" disabled>disabled</button></td>
+            <td><button class="fl fl-default fl-rd-sq fl-sm"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-blue fl-lg fl-rd-sq">fl-lg</button></td>
+            <td><button class="fl fl-blue fl-md fl-rd-sq">fl-mg</button></td>
+            <td><button class="fl fl-blue fl-sm fl-rd-sq">fl-sm</button></td>
+            <td><button class="fl fl-blue fl-sm fl-shadow fl-rd-sq">.fl-shadow</button></td>
+            <td><button class="fl fl-blue fl-sm fl-rd-sq" disabled>disabled</button></td>
+            <td><button class="fl fl-blue fl-sm fl-rd-sq"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-dark fl-lg fl-rd-sq">fl-lg</button></td>
+            <td><button class="fl fl-dark fl-md fl-rd-sq">fl-mg</button></td>
+            <td><button class="fl fl-dark fl-sm fl-rd-sq">fl-sm</button></td>
+            <td><button class="fl fl-dark fl-sm fl-shadow fl-rd-sq">.fl-shadow</button></td>
+            <td><button class="fl fl-dark fl-sm fl-rd-sq" disabled>disabled</button></td>
+            <td><button class="fl fl-dark fl-sm fl-rd-sq"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+           <td><button class="fl fl-white fl-ovl fl-lg fl-rd-sq">fl-lg</button></td>
+            <td><button class="fl fl-white fl-md fl-rd-sq">fl-mg</button></td>
+            <td><button class="fl fl-white fl-sm fl-rd-sq">fl-sm</button></td>
+            <td><button class="fl fl-white fl-sm fl-shadow fl-rd-sq">.fl-shadow</button></td>
+            <td><button class="fl fl-white fl-sm fl-rd-sq" disabled>disabled</button></td>
+            <td><button class="fl fl-white fl-sm fl-rd-sq"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-red fl-lg fl-rd-sq">fl-lg</button></td>
+            <td><button class="fl fl-red fl-md fl-rd-sq">fl-mg</button></td>
+            <td><button class="fl fl-red fl-sm fl-rd-sq">fl-sm</button></td>
+            <td><button class="fl fl-red fl-sm fl-shadow fl-rd-sq">.fl-shadow</button></td>
+            <td><button class="fl fl-red fl-sm fl-rd-sq" disabled>disabled</button></td>
+            <td><button class="fl fl-red fl-sm fl-rd-sq"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+           <tr>
+            <td><button class="fl fl-gray fl-lg fl-ovl">fl-lg</button></td>
+            <td><button class="fl fl-gray fl-md fl-ovl">fl-mg</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl">fl-sm</button></td>
+            <td><button class="fl fl-gray fl-sm fl-shadow fl-ovl">.fl-shadow</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl" disabled>disabled</button></td>
+            <td><button class="fl fl-gray fl-sm fl-ovl"><i class="fa fa-check"></i> icon</button></td>
+          </tr>
+         
+        </tbody>
+ 
+            </table>
+
+          </div>
+                          <p>Created by: Tasha Brookman & MakeThingsPretty all rights reserved. The Standard Flat Buttons has a open source <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a></p>
+
+
+    
+        </div>
+
+      </div>
+    </div>
+    </div>
+ 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
