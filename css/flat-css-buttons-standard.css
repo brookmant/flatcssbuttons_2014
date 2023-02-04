@@ -1,0 +1,418 @@
+/*Flat CSS Buttons include this file to your html document to start using*/
+
+/*Sizes of buttons*/
+
+.fl-sm {
+  width: auto !important;
+  padding: 7px;
+  font-size: 11px !important;
+  height: auto !important;
+  letter-spacing: 1px;
+  text-shadow:none !important;
+
+}
+.fl-sm:hover {
+    border-style:solid;
+    border-width:2px !important; 
+    border-color:initial;
+}
+
+.fl-md { 
+  width: auto !important;
+  padding: 10px;
+  font-size: 1em !important;
+  height: auto !important;
+  letter-spacing: 1px;
+}
+.fl-md:hover {
+    border-style:solid;
+    border-width:2px !important; 
+    border-color:initial;
+}
+
+.fl-lg {
+  width:3em;
+  width: auto;
+  padding: 13px;
+}
+.fl-lg:hover {
+      border-style:solid;
+    border-width:3px !important; 
+    border-color:initial;
+
+}
+.fl button:disabled, .fl input:disabled {
+  opacity: 0.75;
+  padding:auto;
+    text-shadow:none;
+
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.fl:disabled {
+  opacity: 0.75;
+  text-shadow:none;
+  padding:auto;
+  border: 1px solid #888;
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
+/*type of buttons* square, radius, round*/
+.fl-rd-sq {
+  border-radius: 10px !important;
+}
+.fl-ovl {
+    border-radius: 20px !important;
+}
+
+.fl:focus {
+  outline-offset: 0;
+}
+.fl:hover {
+  transition: all .1s;
+  -o-transition: all .1s;
+  -moz-transition: all .1s;
+  -webkit-transition: all .1s;
+}
+
+/* main button class*/
+.fl {
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.34);
+  border-radius: 1px;
+  font-weight: lighter;
+  margin:10px;
+  outline: 2px solid transparent;
+  transition: 1s ease all;
+}
+/* if you want to add a shadow*/
+.fl-shadow {
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+}
+/*icons */
+.fa-2 {
+  font-size: 1.5em;
+}
+
+a.fl {text-decoration: none !important;display: inline-flex;color:#fff;}
+a.fl:visited, a.fl:hover{color:#fff;}
+/*default Buttons*/
+
+.fl-default.fl-rd-sq {
+    border-radius: 10px !important;
+}
+
+.fl-default.fl-ovl {
+  border-radius: 20px !important;
+}
+
+.fl-default {
+  border-width: 1px;
+  border-color: rgb(81, 167, 167);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background:rgb(97,156,156);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5781a1', endColorstr='#4b7595');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5781a1, endColorstr=#4b7595)";
+}
+
+.fl-default:hover {
+  border-width: 1px;
+  border-color: rgb(207, 240, 158);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(214,240,175) 0%, rgb(176,202,137) 180%);
+  background:rgb(214, 240, 175);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6f0af', endColorstr='#b0ca89');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#d6f0af, endColorstr=#b0ca89)";
+}
+
+.fl-default:active {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(207, 240, 158);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(52,102,130) 0%, rgb(21,71,99) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(97, 156, 156);
+}
+
+.fl-default:visited {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(207, 240, 158);
+  border-style: solid;
+   background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(97,156,156) 0%, rgb(61,121,121) 180%);
+  box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+    background: rgb(97, 156, 156);
+
+}
+/******* Colors *****/
+/* Dark */
+
+.fl-dark {
+  border-width: 1px;
+  border-color: rgb(70, 78, 97);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background:  rgb(51, 49, 52);
+
+}
+.fl-dark:hover {
+  border-width: 1px;
+  border-color: rgb(70, 78, 97);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(54,60,75) 0%, rgb(17,16,18) 180%);
+    background: rgb(54, 60, 75);
+
+}
+
+.fl-dark:active {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+   box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+    background: rgb(51, 49, 52);
+
+}
+.fl-dark:visited {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(51,49,52) 0%, rgb(17,16,18) 180%);
+  box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+ background: rgb(51, 49, 52);
+
+}
+
+.fl-blue {
+  border-width: 1px;
+  border-color: rgb(65, 124, 169);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background: rgb(95, 137, 169);
+
+}
+.fl-blue:hover {
+  border-width: 1px;
+  border-color: rgb(128,226,202);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(148,211,194) 0%, rgb(110, 173,155) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(148,211,194) 0%, rgb(110, 173,155)  180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+   background: rgb(95, 137, 169);
+
+}
+
+
+.fl-blue:visited {
+  border-width: 1px;
+  border-color: rgb(65, 124, 169);
+  border-style: solid;
+  color:#ccc;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:rgb(95,137,169);
+}
+
+.fl-blue:active {
+  border-width: 1px;
+  border-color: rgb(65, 124, 169);
+  border-style: solid;
+  color:#ccc;
+ background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(95,137,169) 0%, rgb(58,100,132) 180%);
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(95,137,169);
+}
+
+.fl-gray {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198)180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+  background: rgb(173,178,184);
+}
+
+.fl-gray:hover {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(225,225,225) 0%, rgb(225,224,223) 180%);
+  background: rgb(225,225,225);
+}
+.fl-gray:visited {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+ background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198)180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+   box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(173,178,184);
+}
+
+.fl-gray:active {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  color:#888;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198)180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(173,178,184) 0%, rgb(187, 192,198) 180%);
+     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(173,178,184);
+}
+
+.fl-white {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  color:#000;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255)180%);
+  background: rgb(246, 243,243);
+}
+
+.fl-white:hover {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  color:#000;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(255,255,255) 0%, rgb(255,255,255) 180%);
+  background:  rgb(255,255,255);
+}
+
+.fl-white:visited {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  color:#888;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255)180%);
+      box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:rgb(246, 243,243);
+}
+
+.fl-white:active {
+  border-width: 1px;
+  border-color: rgb(166, 171, 177);
+  border-style: solid;
+  color:#888;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(246, 243,243) 0%, rgb(255,255,255)180%);
+     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(246, 243,243);
+}
+
+.fl-red {
+  border-width: 1px;
+  border-color: rgb(252, 63, 77);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background: rgb(223,31,45);
+}
+
+.fl-red:hover {
+  border-width: 1px;
+  border-color: rgb(253,151,18);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(253,114,99) 0%, rgb(253,151,18) 180%);
+  background: rgb(253,114,99);
+}
+.fl-red:visited {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(252, 63, 77);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+    box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background: rgb(223,31,45);
+}
+
+.fl-red:active {
+  border-width: 1px;
+  color:#ccc;
+  border-color: rgb(252, 63, 77);
+  border-style: solid;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(223,31,45) 0%, rgb(238,34,48) 180%);
+     box-shadow: inset 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -1px 0px 6px 0px rgba(0,0,0,0.75);
+  background:  rgb(223,31,45);
+}
+
+
+
